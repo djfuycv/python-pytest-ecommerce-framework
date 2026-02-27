@@ -1,17 +1,104 @@
-# # Python
+# ========================= Python 核心忽略 =========================
+# 字节码文件
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Python缓存/编译文件
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境（覆盖各类命名）
 venv/
 .venv/
 env/
+ENV/
+env.local/
+env.test/
+env.prod/
 
-# Logs & Reports
+# ========================= 测试项目专属忽略 =========================
+# 日志文件/目录
 log/
+logs/
 *.log
+*.log.*
+.pytest_cache/  # pytest运行缓存
+
+# 测试报告（Allure/HTML）
 report/
 allure-results/
+allure-report/
+htmlcov/  # 覆盖率报告
+.coverage
+coverage.xml
+*.cover
 
-# IDE
+# ========================= IDE/系统忽略 =========================
+# JetBrains系列（PyCharm/IDEA）
 .idea/
 *.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# macOS系统
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows系统
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ========================= 其他忽略 =========================
+# 环境变量配置（敏感信息）
+.env
+.env.local
+.env.test
+.env.prod
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
