@@ -1,4 +1,0 @@
-INFO     EcomTest:log_util.py:29 🧪 执行用例：用户不存在
-INFO     EcomTest:log_util.py:29 收到登录请求：用户=nobody, 密码长度=6
-WARNING  EcomTest:log_util.py:35 [Mock DB] User Not Found: nobody
-INFO     EcomTest:log_util.py:29 ✅ 用例通过：用户不存在
