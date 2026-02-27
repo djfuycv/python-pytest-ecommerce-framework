@@ -1,0 +1,5 @@
+INFO     EcomTest:log_util.py:29 🧪 执行用例：密码超长
+INFO     EcomTest:log_util.py:29 收到登录请求：用户=admin, 密码长度=1000
+INFO     EcomTest:log_util.py:29 [Mock DB] Query User: admin, FailCount: 1
+INFO     EcomTest:log_util.py:29 [Mock DB] Update FailCount +1: admin -> 2
+INFO     EcomTest:log_util.py:29 ✅ 用例通过：密码超长

@@ -1,0 +1,17 @@
+# # Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Logs & Reports
+log/
+*.log
+report/
+allure-results/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
