@@ -1,4 +1,4 @@
-# data/product_data.yaml
+# data/test_product.yaml
 product_cases:
   - case_name: "获取商品列表成功"
     product_id: ""

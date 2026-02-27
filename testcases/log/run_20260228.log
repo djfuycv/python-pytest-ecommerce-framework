@@ -1,0 +1,191 @@
+2026-02-28 00:26:53,009 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:26:53,009 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:26:53,009 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:26:53,091 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:26:53,091 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:26:53,091 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:29:53,925 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:29:53,925 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:29:53,925 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:29:53,981 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:29:53,981 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:29:53,982 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:35:23,539 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:35:23,539 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:35:23,539 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:35:23,620 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:35:23,620 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:35:23,620 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:42:00,970 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:42:00,970 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:42:00,970 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:42:04,542 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:42:04,542 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:42:04,542 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:48:47,321 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:48:47,322 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:48:47,322 - INFO - ✅ 加载登录用例：共4条，当前环境(test)可执行2条
+2026-02-28 00:53:23,357 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:53:23,357 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:53:23,357 - INFO - ✅ 加载登录用例：共4条，关闭环境筛选后可执行4条
+2026-02-28 00:53:23,438 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:53:23,438 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:53:23,438 - INFO - ✅ 加载登录用例：共4条，关闭环境筛选后可执行4条
+2026-02-28 00:53:23,439 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:53:23,439 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:53:23,440 - INFO - 🧪 执行用例：正确密码登录-复用Token
+2026-02-28 00:53:23,440 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,440 - INFO - 📝 预置Mock失败次数：test_user → 0
+2026-02-28 00:53:23,440 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,440 - INFO - 📊 前置失败次数：test_user → 0
+2026-02-28 00:53:23,440 - INFO - 收到登录请求：用户=test_user, 密码长度=13
+2026-02-28 00:53:23,440 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,440 - INFO - [Mock Redis] 获取 test_user 的 Token
+2026-02-28 00:53:23,440 - INFO - [Mock Redis] 设置 test_user 的 Token: token_test_user_8888，过期时间: 永不过期
+2026-02-28 00:53:23,440 - INFO - 生成新 Token
+2026-02-28 00:53:23,440 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 0, 状态: active
+2026-02-28 00:53:23,440 - INFO - 【请求】POST https://httpbin.orghttps://httpbin.org/post | Data: {'login': 'success'}
+2026-02-28 00:53:23,539 - ERROR - 【异常】HTTPSConnectionPool(host='httpbin.orghttps', port=443): Max retries exceeded with url: /httpbin.org/post (Caused by NameResolutionError("HTTPSConnection(host='httpbin.orghttps', port=443): Failed to resolve 'httpbin.orghttps' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-28 00:53:23,539 - WARNING - 外部接口调用失败（不影响登录）：HTTPSConnectionPool(host='httpbin.orghttps', port=443): Max retries exceeded with url: /httpbin.org/
+2026-02-28 00:53:23,539 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,539 - INFO - ✅ DB 校验通过：FailCount 0 → 0
+2026-02-28 00:53:23,539 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,539 - INFO - ✅ 状态校验通过：test_user → active
+2026-02-28 00:53:23,539 - INFO - ✅ 用例通过：正确密码登录-复用Token
+
+2026-02-28 00:53:23,541 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:53:23,541 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:53:23,541 - INFO - 🧪 执行用例：错误密码登录-失败次数+1
+2026-02-28 00:53:23,541 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,541 - INFO - 📝 预置Mock失败次数：test_user → 0
+2026-02-28 00:53:23,541 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,541 - INFO - 📊 前置失败次数：test_user → 0
+2026-02-28 00:53:23,541 - INFO - 收到登录请求：用户=test_user, 密码长度=14
+2026-02-28 00:53:23,541 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,541 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 1, 状态: active
+2026-02-28 00:53:23,541 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,541 - INFO - ✅ DB 校验通过：FailCount 0 → 1
+2026-02-28 00:53:23,541 - INFO - ✅ 用例通过：错误密码登录-失败次数+1
+
+2026-02-28 00:53:23,542 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:53:23,542 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:53:23,542 - INFO - 🧪 执行用例：失败5次-账号锁定
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,542 - INFO - 📝 预置Mock失败次数：test_user → 4
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,542 - INFO - 📊 前置失败次数：test_user → 4
+2026-02-28 00:53:23,542 - INFO - 收到登录请求：用户=test_user, 密码长度=14
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,542 - WARNING - [Mock DB] 用户 test_user 失败次数达5次，账号锁定
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 5, 状态: locked
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,542 - INFO - ✅ DB 校验通过：FailCount 4 → 5
+2026-02-28 00:53:23,542 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:53:23,542 - INFO - ✅ 状态校验通过：test_user → locked
+2026-02-28 00:53:23,542 - INFO - ✅ 用例通过：失败5次-账号锁定
+
+2026-02-28 00:53:23,543 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:53:23,543 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:53:23,543 - INFO - 🧪 执行用例：超长密码登录-安全校验
+2026-02-28 00:53:23,543 - INFO - 收到登录请求：用户=test_user, 密码长度=1000
+2026-02-28 00:53:23,543 - WARNING - ⚠️ 密码长度超限：1000字符（最大50）
+2026-02-28 00:55:22,057 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:55:22,057 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:55:22,057 - INFO - ✅ 加载登录用例：共4条，关闭环境筛选后可执行4条
+2026-02-28 00:55:22,134 - INFO - ✅ 成功加载数据文件：/Users/mac/code/PythonProject/ecommerce_auto_test/data/test_login.yaml
+2026-02-28 00:55:22,134 - INFO - ✅ 预处理登录用例：共4条有效用例
+2026-02-28 00:55:22,134 - INFO - ✅ 加载登录用例：共4条，关闭环境筛选后可执行4条
+2026-02-28 00:55:22,135 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:55:22,135 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:55:22,136 - INFO - 🧪 执行用例：正确密码登录-复用Token
+2026-02-28 00:55:22,136 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,136 - INFO - 📝 预置Mock失败次数：test_user → 0
+2026-02-28 00:55:22,136 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,136 - INFO - 📊 前置失败次数：test_user → 0
+2026-02-28 00:55:22,136 - INFO - 收到登录请求：用户=test_user, 密码长度=13
+2026-02-28 00:55:22,136 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,136 - INFO - [Mock Redis] 获取 test_user 的 Token
+2026-02-28 00:55:22,136 - INFO - [Mock Redis] 设置 test_user 的 Token: token_test_user_8888，过期时间: 永不过期
+2026-02-28 00:55:22,136 - INFO - 生成新 Token
+2026-02-28 00:55:22,136 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 0, 状态: active
+2026-02-28 00:55:22,136 - INFO - 【请求】POST https://httpbin.orghttps://httpbin.org/post | Data: {'login': 'success'}
+2026-02-28 00:55:22,164 - ERROR - 【异常】HTTPSConnectionPool(host='httpbin.orghttps', port=443): Max retries exceeded with url: /httpbin.org/post (Caused by NameResolutionError("HTTPSConnection(host='httpbin.orghttps', port=443): Failed to resolve 'httpbin.orghttps' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-28 00:55:22,164 - WARNING - 外部接口调用失败（不影响登录）：HTTPSConnectionPool(host='httpbin.orghttps', port=443): Max retries exceeded with url: /httpbin.org/
+2026-02-28 00:55:22,164 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,164 - INFO - ✅ DB 校验通过：FailCount 0 → 0
+2026-02-28 00:55:22,164 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,164 - INFO - ✅ 状态校验通过：test_user → active
+2026-02-28 00:55:22,164 - INFO - ✅ 用例通过：正确密码登录-复用Token
+
+2026-02-28 00:55:22,165 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:55:22,165 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:55:22,165 - INFO - 🧪 执行用例：错误密码登录-失败次数+1
+2026-02-28 00:55:22,165 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,165 - INFO - 📝 预置Mock失败次数：test_user → 0
+2026-02-28 00:55:22,165 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,165 - INFO - 📊 前置失败次数：test_user → 0
+2026-02-28 00:55:22,165 - INFO - 收到登录请求：用户=test_user, 密码长度=14
+2026-02-28 00:55:22,165 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,165 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 1, 状态: active
+2026-02-28 00:55:22,165 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,165 - INFO - ✅ DB 校验通过：FailCount 0 → 1
+2026-02-28 00:55:22,165 - INFO - ✅ 用例通过：错误密码登录-失败次数+1
+
+2026-02-28 00:55:22,166 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:55:22,166 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:55:22,166 - INFO - 🧪 执行用例：失败5次-账号锁定
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,166 - INFO - 📝 预置Mock失败次数：test_user → 4
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,166 - INFO - 📊 前置失败次数：test_user → 4
+2026-02-28 00:55:22,166 - INFO - 收到登录请求：用户=test_user, 密码长度=14
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,166 - WARNING - [Mock DB] 用户 test_user 失败次数达5次，账号锁定
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 用户 test_user 失败次数更新为: 5, 状态: locked
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,166 - INFO - ✅ DB 校验通过：FailCount 4 → 5
+2026-02-28 00:55:22,166 - INFO - [Mock DB] 查询用户: test_user
+2026-02-28 00:55:22,166 - INFO - ✅ 状态校验通过：test_user → locked
+2026-02-28 00:55:22,166 - INFO - ✅ 用例通过：失败5次-账号锁定
+
+2026-02-28 00:55:22,166 - INFO - [Mock] 所有 Mock 数据已重置为初始状态
+2026-02-28 00:55:22,166 - INFO - 🔧 测试前置完成：Mock模式=True，环境=test
+2026-02-28 00:55:22,167 - INFO - 🧪 执行用例：超长密码登录-安全校验
+2026-02-28 00:55:22,167 - INFO - 收到登录请求：用户=test_user, 密码长度=1000
+2026-02-28 00:55:22,167 - WARNING - ⚠️ 密码长度超限：1000字符（最大50）
+2026-02-28 00:55:22,167 - INFO - ✅ 用例通过：超长密码登录-安全校验
+
+2026-02-28 01:04:24,130 - INFO - [Mock] 商品Mock数据已重置为初始状态
+2026-02-28 01:04:24,131 - INFO - 🔧 商品测试前置完成：Mock模式=True
+2026-02-28 01:04:24,131 - INFO - 🧪 执行用例：查询存在商品-正常在售
+2026-02-28 01:04:24,131 - INFO - 【API】执行操作：获取商品详情 ID=product_001
+2026-02-28 01:04:24,131 - INFO - 【Mock】校验商品逻辑：product_id=product_001
+2026-02-28 01:04:24,131 - INFO - ✅ 用例通过：查询存在商品-正常在售
+
+2026-02-28 01:04:24,132 - INFO - [Mock] 商品Mock数据已重置为初始状态
+2026-02-28 01:04:24,132 - INFO - 🔧 商品测试前置完成：Mock模式=True
+2026-02-28 01:04:24,132 - INFO - 🧪 执行用例：查询存在商品-已售罄
+2026-02-28 01:04:24,132 - INFO - 【API】执行操作：获取商品详情 ID=product_002
+2026-02-28 01:04:24,132 - INFO - 【Mock】校验商品逻辑：product_id=product_002
+2026-02-28 01:04:24,132 - INFO - ✅ 用例通过：查询存在商品-已售罄
+
+2026-02-28 01:04:24,132 - INFO - [Mock] 商品Mock数据已重置为初始状态
+2026-02-28 01:04:24,132 - INFO - 🔧 商品测试前置完成：Mock模式=True
+2026-02-28 01:04:24,133 - INFO - 🧪 执行用例：查询不存在商品
+2026-02-28 01:04:24,133 - INFO - 【API】执行操作：获取商品详情 ID=product_999
+2026-02-28 01:04:24,133 - INFO - 【Mock】校验商品逻辑：product_id=product_999
+2026-02-28 01:04:24,133 - INFO - ✅ 用例通过：查询不存在商品
+
+2026-02-28 01:04:24,133 - INFO - [Mock] 商品Mock数据已重置为初始状态
+2026-02-28 01:04:24,133 - INFO - 🔧 商品测试前置完成：Mock模式=True
+2026-02-28 01:04:24,133 - INFO - 🧪 执行用例：获取商品列表
+2026-02-28 01:04:24,133 - INFO - 【API】执行操作：获取商品列表
+2026-02-28 01:04:24,133 - INFO - 【API】返回商品列表，共 3 个商品
+2026-02-28 01:04:24,133 - INFO - ✅ 用例通过：获取商品列表
+
+2026-02-28 01:04:24,133 - INFO - [Mock] 商品Mock数据已重置为初始状态
+2026-02-28 01:04:24,134 - INFO - 🔧 商品测试前置完成：Mock模式=True
+2026-02-28 01:04:24,134 - INFO - 🧪 执行用例：创建商品-正常创建
+2026-02-28 01:04:24,134 - INFO - 【API】执行操作：创建商品 name=新测试商品, price=199.9
+2026-02-28 01:04:24,134 - INFO - ✅ 用例通过：创建商品-正常创建
+

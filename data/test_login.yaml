@@ -1,0 +1,42 @@
+login_cases:
+  - case_name: "正确密码登录-复用Token"
+    username: "test_user"
+    password: "test_pass_123"
+    expected_code: 200
+    expected_msg: "success"
+    expected_status: "active"
+    check_db: True
+    sensitive_check: True
+    fail_count_before: 0
+    run_env: ["mock", "test"]
+    priority: "P0"
+
+  - case_name: "错误密码登录-失败次数+1"
+    username: "test_user"
+    password: "wrong_pass_123"
+    expected_code: 401
+    expected_msg: "password error"
+    check_db: True
+    fail_count_before: 0
+    run_env: ["mock"]
+    priority: "P0"
+
+  - case_name: "失败5次-账号锁定"
+    username: "test_user"
+    password: "wrong_pass_123"
+    expected_code: 401
+    expected_msg: "password error"
+    expected_status: "locked"
+    check_db: True
+    fail_count_before: 4
+    run_env: ["mock"]
+    priority: "P0"
+
+  - case_name: "超长密码登录-安全校验"
+    username: "test_user"
+    password_type: "long_1000"  # data_util自动处理为1000位a
+    expected_code: 400
+    expected_msg: "密码长度超出限制"
+    sensitive_check: True
+    run_env: ["mock", "test"]
+    priority: "P0"

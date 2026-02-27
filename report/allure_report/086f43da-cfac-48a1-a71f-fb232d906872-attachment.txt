@@ -1,0 +1,6 @@
+INFO     EcomTest:log_util.py:29 [Mock] 所有 Mock 数据已重置为初始状态
+INFO     EcomTest:log_util.py:29 🔧 测试前置完成：Mock模式=True，环境=test
+INFO     EcomTest:log_util.py:29 🧪 执行用例：超长密码登录-安全校验
+INFO     EcomTest:log_util.py:29 收到登录请求：用户=test_user, 密码长度=1000
+WARNING  EcomTest:log_util.py:35 ⚠️ 密码长度超限：1000字符（最大50）
+INFO     EcomTest:log_util.py:29 ✅ 用例通过：超长密码登录-安全校验

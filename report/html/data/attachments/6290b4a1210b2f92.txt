@@ -1,0 +1,6 @@
+INFO     EcomTest:log_util.py:29 [Mock] 商品Mock数据已重置为初始状态
+INFO     EcomTest:log_util.py:29 🔧 商品测试前置完成：Mock模式=True
+INFO     EcomTest:log_util.py:29 🧪 执行用例：获取商品列表
+INFO     EcomTest:log_util.py:29 【API】执行操作：获取商品列表
+INFO     EcomTest:log_util.py:29 【API】返回商品列表，共 3 个商品
+INFO     EcomTest:log_util.py:29 ✅ 用例通过：获取商品列表

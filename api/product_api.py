@@ -1,19 +1,23 @@
 from utils.request_util import RequestUtil
 from utils.log_util import logger
-from mock.product_mock import ProductMockData  # <--- 引入 Mock 层
+from mock.product_mock import ProductMockData  # 引入Mock层
+from config.env_config import config  # 新增：适配环境配置
 
 
 class ProductApi:
     def __init__(self):
         self.req = RequestUtil()
+        # 新增：标记当前是否为Mock模式（和登录API保持一致）
+        self.is_mock = config.IS_MOCK
 
     def get_product_list(self, token):
         logger.info("【API】执行操作：获取商品列表")
 
-        # 1. 发送真实请求 (可选，用于验证网络通断)
-        self.req.send(method="GET", url="/get", params={"page": 1}, token=token)
+        # 优化1：Mock模式下可选跳过真实请求（避免无效网络调用）
+        if not self.is_mock:
+            self.req.send(method="GET", url="/get", params={"page": 1}, token=token)
 
-        # 2. 直接返回 Mock 数据
+        # 直接返回Mock数据（核心逻辑不变）
         logger.info(f"【API】返回商品列表，共 {len(ProductMockData.PRODUCT_LIST)} 个商品")
         return {
             "code": 200,
@@ -24,10 +28,11 @@ class ProductApi:
     def get_product_detail(self, product_id, token):
         logger.info(f"【API】执行操作：获取商品详情 ID={product_id}")
 
-        # 1. 发送真实请求 (可选)
-        self.req.send(method="GET", url="/get", params={"id": product_id}, token=token)
+        # 优化1：Mock模式下跳过真实请求
+        if not self.is_mock:
+            self.req.send(method="GET", url="/get", params={"id": product_id}, token=token)
 
-        # 2. 委托给 Mock 层处理业务逻辑
+        # 委托Mock层处理业务逻辑（核心逻辑不变）
         code, msg, data = ProductMockData.check_product_logic(product_id)
 
         return {
@@ -43,11 +48,14 @@ class ProductApi:
         logger.info(f"【API】执行操作：创建商品 name={name}, price={price}")
 
         data = {"name": name, "price": price}
-        # 使用刚才修复的 send 方法，这次传 data 而不是 params
-        # 注意：create_product 不需要 params，只需要 data
-        resp = self.req.send(method="POST", url="/post", data=data, token=token)
+        # 优化1：Mock模式下跳过真实请求
+        resp = None
+        if not self.is_mock:
+            # 使用修复后的send方法，传data（POST body）
+            resp = self.req.send(method="POST", url="/post", data=data, token=token)
+            logger.info(f"【API】创建商品真实请求响应：{resp}")
 
-        # 模拟成功创建
+        # 模拟成功创建（核心逻辑不变）
         return {
             "code": 201,
             "msg": "created",

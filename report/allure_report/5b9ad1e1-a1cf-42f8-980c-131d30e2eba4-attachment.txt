@@ -1,0 +1,5 @@
+INFO     EcomTest:log_util.py:29 [Mock] 商品Mock数据已重置为初始状态
+INFO     EcomTest:log_util.py:29 🔧 商品测试前置完成：Mock模式=True
+INFO     EcomTest:log_util.py:29 🧪 执行用例：创建商品-正常创建
+INFO     EcomTest:log_util.py:29 【API】执行操作：创建商品 name=新测试商品, price=199.9
+INFO     EcomTest:log_util.py:29 ✅ 用例通过：创建商品-正常创建
