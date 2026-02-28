@@ -1,0 +1,56 @@
+# 工作流名称
+name: Ecommerce Auto Test CI
+
+# 触发条件：推代码到main分支、提PR到main分支，也可以手动触发
+on:
+  push:
+    branches: [ main, master ]  # 适配不同的主分支命名
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # 允许手动触发
+
+# 定义任务
+jobs:
+  test:
+    # 使用 Ubuntu 最新版（GitHub 提供的虚拟机，环境干净）
+    runs-on: ubuntu-latest
+
+    # 任务步骤
+    steps:
+      # 步骤1：拉取GitHub仓库代码
+      - name: Checkout code
+        uses: actions/checkout@v4  # 官方拉代码插件
+
+      # 步骤2：配置Python环境（和你本地一致的版本，比如3.10）
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'  # 改成你本地的Python版本
+
+      # 步骤3：安装项目依赖
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # 安装pytest、allure-pytest等依赖
+
+      # 步骤4：执行自动化测试，生成Allure结果文件
+      - name: Run pytest with Allure
+        run: |
+          python -m pytest testcases/ --alluredir=allure-results -v
+
+      # 步骤5：上传Allure结果文件（方便下载查看）
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 7  # 结果文件保留7天
+
+      # 可选：生成Allure HTML报告并部署（如需在线查看报告，取消下面注释）
+      # - name: Generate Allure Report
+      #   uses: simple-elf/allure-report-action@master
+      #   with:
+      #     allure_results: allure-results
+      #     gh_pages: gh-pages
+      #     allure_report: allure-report
+      #     allure_version: 2.24.1git add .github/workflows/ci.yml
