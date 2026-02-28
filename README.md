@@ -106,8 +106,3 @@ allure open report/html
 - 接口调用失败：检查 config/env_config.py 中 BASE_URL 是否正确
 - Mock 数据不生效：确认 .env 中 AUTO_IS_MOCK=True
 - 报告生成失败：检查 allure-commandline 是否安装并配置到环境变量
-
-
-'''
-想验证电商自动化项目的持续集成能力
-'''
