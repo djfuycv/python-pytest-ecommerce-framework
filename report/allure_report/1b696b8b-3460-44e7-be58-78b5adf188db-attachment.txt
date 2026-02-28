@@ -1,6 +1,0 @@
-INFO     EcomTest:log_util.py:29 [Mock] 商品Mock数据已重置为初始状态
-INFO     EcomTest:log_util.py:29 🔧 商品测试前置完成：Mock模式=True
-INFO     EcomTest:log_util.py:29 🧪 执行用例：查询存在商品-正常在售
-INFO     EcomTest:log_util.py:29 【API】执行操作：获取商品详情 ID=product_001
-INFO     EcomTest:log_util.py:29 【Mock】校验商品逻辑：product_id=product_001
-INFO     EcomTest:log_util.py:29 ✅ 用例通过：查询存在商品-正常在售
